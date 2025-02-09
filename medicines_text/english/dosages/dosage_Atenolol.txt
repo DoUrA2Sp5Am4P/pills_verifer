@@ -1,0 +1,3 @@
+Class: Beta Blocker
+Form: Tablet
+Dosage: 50 mg

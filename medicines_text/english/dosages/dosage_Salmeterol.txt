@@ -1,0 +1,3 @@
+Class: Corticosteroid / Long-acting Beta Agonist
+Form: Inhaler
+Dosage: 100 mcg / 50 mcg per inhalation

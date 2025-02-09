@@ -1,0 +1,3 @@
+Class: Selective Serotonin Reuptake Inhibitor
+Form: Capsule
+Dosage: 10 mg

@@ -1,0 +1,3 @@
+Class: Atypical Antidepressant
+Form: Tablet
+Dosage: 30 mg
