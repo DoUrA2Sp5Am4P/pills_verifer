@@ -147,7 +147,9 @@ while True:
             strFormat = 'RGBA'
             raw_str = pygame.image.tostring(camera_frame, strFormat, False)
             image = Image.frombytes(strFormat, camera_frame.get_size(), raw_str)
-            qr_code=decode(image)
+            clean_im = cv2.medianBlur(image, 25)
+            small_clean_im = cv2.resize(clean_im, (512, 512), interpolation=cv2.INTER_AREA)
+            qr_code = decode(small_clean_im, symbols=[ZBarSymbol.QRCODE])
             if len(qr_code)!=0:
                 break
         if restart:
